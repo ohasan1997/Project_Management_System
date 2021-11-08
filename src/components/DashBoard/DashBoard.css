@@ -1,0 +1,44 @@
+.DashBoard {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  padding-bottom: 0;
+}
+.Dashboard > h2 {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.Dashboard > .ProjectTiles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProjectTile {
+  display: flex;
+  background-color: lightgray;
+  padding: 10px;
+  margin-left: 80px;
+  max-width: 800px;
+  margin-top: 20px;
+  border-radius: 3%;
+  /* justify-content: center; */
+}
+
+.ProjectTiles {
+  /* background-color: blue; */
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.ProjectTile > #ProjectName {
+  margin-left: 10px;
+}
+
+.ProjectTile > #ProjectDate {
+  margin-left: 600px;
+}
+
+.ProjectTile > .Avatar {
+  margin-left: 20px;
+}

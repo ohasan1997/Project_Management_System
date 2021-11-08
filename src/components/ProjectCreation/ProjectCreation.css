@@ -1,0 +1,99 @@
+.ProjectCreation {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  padding-bottom: 0;
+  font-size: 30px;
+}
+.ProjectCreation > h4 {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.ProjectCreation > .Project {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  justify-content: space-between;
+  /* text-align: center; */
+  /* margin-left: 90px; */
+  text-align: center;
+}
+
+.ProjectCreation > .Project > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.ProjectCreation > .Project > div > input {
+  background-color: lightgray;
+  width: 400px;
+  margin-left: 300px;
+  padding: 5px;
+}
+
+.ProjectCreation > .Project > div > label {
+  padding: 10px;
+}
+
+.ProjectCreation > .Project > .ProjectName > input {
+  height: 30px;
+}
+
+.ProjectCreation > .Project > .ProjectDetail > input {
+  height: 60px;
+}
+.ProjectCreation > .Project > .ProjectLogo > input {
+  height: 30px;
+}
+
+.add {
+  background-color: blue;
+  /* width: 150px; */
+  font-size: 16px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  /* width: 100px; */
+  margin-left: 720px;
+  /* margin-top: 10px; */
+}
+
+.cancel {
+  background-color: lightgray;
+  /* width: 150px; */
+  /* height: 10px; */
+  font-size: 16px;
+  padding: 15px;
+  /* color: white; */
+  cursor: pointer;
+  /* margin-top: 50px; */
+  /* width: 100px; */
+  /* margin-left: 550px; */
+  /* margin-bottom: 80px;  */
+  /* margin-top: 200px; */
+}
+
+.ProjectCreation > .Project > .buttons {
+  display: flex;
+  flex-direction: row;
+  width: 180px;
+  height: 70px;
+}
+
+.ProjectCreation > .Project > .browse {
+  font-size: 16px;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  margin-left: 400px;
+  margin-top: 20px;
+  justify-content: space-between;
+  /* margin-bottom: 200px; */
+}
+
+/* .ProjectCreation > .Project > .ProjectName > div */

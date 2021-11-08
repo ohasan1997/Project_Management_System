@@ -1,0 +1,95 @@
+.RegisterationForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* width: 40%; */
+  background-color: darkblue;
+  color: white;
+  max-width: 300px;
+  /* padding: 10px 0; */
+  margin: 10px 250px 0 500px;
+  padding: 10px 0;
+  min-width: 200px;
+  /* height: 250px; */
+  border-radius: 10%;
+  border-style: solid;
+  border-color: black;
+}
+
+.SignInForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* width: 40%; */
+  background-color: darkblue;
+  color: white;
+  /* padding: 10px 0; */
+  margin: 100px 400px;
+  padding: 10px;
+  min-width: 300px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.username {
+  padding: 10px 0;
+
+  margin-top: 20px;
+  /* margin: 120px 0; */
+}
+
+.username > label {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.email > label {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.password > label {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.email {
+  padding: 10px 0;
+  margin-top: 20px;
+  /* margin: 120px 0; */
+}
+
+.password {
+  padding: 10px 0;
+  margin-top: 20px;
+  /* margin: 120px 0; */
+}
+
+.btn {
+  background-color: grey;
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin-left: 400px; */
+  margin: 20px 200px;
+  padding: 10px;
+  min-width: 80px;
+  border-radius: 10%;
+  cursor: pointer;
+  /* border-color: brown */
+}
+
+
+.btn1 {
+  background-color: grey;
+  /* width: 80px; */
+  /* height: 80px; */
+  /* margin-left: 400px; */
+  margin: 8px 200px;
+  padding: 10px;
+  min-width: 80px;
+  border-radius: 10%;
+  cursor: pointer;
+  /* border-color: brown */
+}

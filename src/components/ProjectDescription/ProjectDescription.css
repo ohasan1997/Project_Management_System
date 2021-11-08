@@ -1,0 +1,104 @@
+.projectDescription {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  padding-bottom: 0;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.projectDescription > .Description {
+  margin-left: 400px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.projectDescription > .Description > .Details > h4{
+  font-size: 14px;
+}
+
+.projectDescription > .Description > .Details > p{
+  font-size: 10px;
+}
+
+.projectDescription > .Description > .Details{
+  /* margin-bottom: 10px; */
+  margin-left: 10px;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.projectDescription > .Description > Avatar{
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-top: 20px;
+}
+
+.projectDescription > .projectDetails {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+
+.projectDescription > .comments {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+
+.projectDescription > .comments > input{
+  width: 600px;
+  height: 80px;
+}
+
+.commentTile {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  padding: 10px;
+  margin-left: 1px;
+  max-width: 800px;
+  margin-top: 20px;
+  border-radius: 3%;
+  /* justify-content: center; */
+}
+.uppericons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .ProjectTiles {
+  /* background-color: blue; */
+  /* margin-top: 100px; */
+  /* justify-content: center; */
+/* }  */
+
+.commentTile >.uppericons > #ProjectName {
+  margin-left: 10px;
+}
+
+.commentTile > .uppericons > #ProjectDate {
+  margin-left: 20px;
+}
+
+.commentTile > .uppericons > .Avatar {
+  margin-left: 20px;
+}
+
+.commentTile > .uppericons > .editicon {
+  margin-left: 500px;
+  margin-top: 15px;
+}
+
+.commentTile > .uppericons > .delete {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.commentTile > p {
+  margin-left: 20px;
+}
+
+.commentTiles {
+    margin-top: 100px;
+    justify-content: center;
+}
